@@ -1,0 +1,9 @@
+inetnum: 10.0.0.0 - 10.0.0.255
+cidr: 10.0.0.0/24
+netname: NET-ARCA-INFRA
+descr: Infrastructure subnet
+status: ALLOCATED INFRA
+admin-c: PERSON-PP
+remarks: * This subnet is divided into 2 /25 subnets.
+remarks: * 10.0.0.0/25 is used for anycast services (e.g. DNS)
+remarks: * 10.0.0.128/25 is used for management access to area 0 devices

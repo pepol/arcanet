@@ -6,5 +6,5 @@ key: netname   required  single
 key: descr     optional  single
 key: vlan      optional  single    lookup=vlan
 key: status    optional  single    > {ALLOCATED|ASSIGNED} {ANYCAST|}
-key: admin-c   required  multiple  lookup=person
+key: admin-c   optional  multiple  lookup=person
 key: remarks   optional  multiple

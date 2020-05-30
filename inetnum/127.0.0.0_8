@@ -1,0 +1,7 @@
+inetnum: 127.0.0.0 - 127.255.255.255
+cidr: 127.0.0.0/8
+netname: NET-LOOPBACK
+descr: Loopback IPv4 addresses
+status: ALLOCATED
+admin-c: PERSON-PP
+remarks: * Subnets are allocated to OSPF routers as router IDs

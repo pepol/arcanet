@@ -1,0 +1,4 @@
+inetnum: 127.0.0.1 - 127.0.0.1
+cidr: 127.0.0.1/32
+netname: NET-LOCALHOST
+descr: Loopback IPv4 address for localhost

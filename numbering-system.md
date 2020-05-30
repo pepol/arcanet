@@ -38,11 +38,10 @@ within each router.
 
 Area 0 MUST NOT contain any servers or any other device requiring IP address.
 
-**EXCEPTION:** Managed switches SHOULD use addresses from 10.0.0.0/24 subnet,
+**EXCEPTION:** Managed switches SHOULD use addresses from 10.0.0.128/25 subnet,
 as router local ID 0 is NOT ALLOWED.
 
-Master router (router ID: 127.255.255.1) MUST claim address 10.0.0.1/24 and
-provide DHCP service for non-router devices in area 0, if such are used.
+The subnet 10.0.0.0/25 is also used for some network anycast services.
 
 ### Sub-area recommendations
 

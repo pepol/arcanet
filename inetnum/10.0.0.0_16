@@ -1,0 +1,6 @@
+inetnum: 10.0.0.0 - 10.0.255.255
+cidr: 10.0.0.0/16
+netname: NET-ARCA-OSPF-0
+descr: IPv4 range for OSPF area 0 (and anycast services).
+status: ALLOCATED INFRA
+admin-c: PERSON-PP

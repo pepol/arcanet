@@ -1,0 +1,4 @@
+inetnum: 0.0.0.0 - 255.255.255.255
+cidr: 0.0.0.0/0
+netname: NET-IPV4
+descr: Entire IPv4 Address Space

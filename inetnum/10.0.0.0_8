@@ -1,0 +1,7 @@
+inetnum: 10.0.0.0 - 10.255.255.255
+cidr: 10.0.0.0/8
+netname: NET-ARCA-MAIN
+descr: Main IPv4 Address Range for ArcaNet
+status: ALLOCATED INFRA
+admin-c: PERSON-PP
+remarks: * Subnets are allocated to OSPF area N as: 10.N.0.0/16
