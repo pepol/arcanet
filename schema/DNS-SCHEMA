@@ -1,0 +1,7 @@
+schema: DNS-SCHEMA
+ref: domain
+key: domain   required  single    primary schema
+key: nserver  required  multiple  > [domain-name] [ip-addr]
+key: descr    optional  single
+key: admin-c  required  multiple  lookup=person
+key: remarks  optional  multiple

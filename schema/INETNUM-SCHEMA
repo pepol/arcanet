@@ -1,0 +1,10 @@
+schema: INETNUM-SCHEMA
+ref: inetnum
+key: inetnum  required  single    schema
+key: cidr     required  single    primary
+key: netname  required  single
+key: descr    optional  single
+key: vlan     optional  single    lookup=vlan
+key: status   optional  single    > {ALLOCATED|ASSIGNED} {ANYCAST|}
+key: admin-c  required  multiple  lookup=person
+key: remarks  optional  multiple

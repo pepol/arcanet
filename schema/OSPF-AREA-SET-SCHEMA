@@ -1,0 +1,7 @@
+schema: OSPF-AREA-SET-SCHEMA
+ref: ospf-area-set
+key: ospf-area-set  required  single    primary schema
+key: descr          optional  single
+key: member         required  multiple  lookup=ospf-area
+key: admin-c        required  multiple  lookup=person
+key: remarks        optional  multiple

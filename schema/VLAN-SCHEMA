@@ -1,0 +1,8 @@
+schema: VLAN-SCHEMA
+ref: vlan
+key: vlan     required  single    primary schema
+key: netname  required  single
+key: descr    optional  multiple
+key: admin-c  required  multiple  lookup=person
+key: cidr     required  single    lookup=inetnum,inet6num
+key: remarks  optional  multiple

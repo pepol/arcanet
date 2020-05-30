@@ -1,0 +1,11 @@
+schema: PERSON-SCHEMA
+ref: person
+key: person   required  single    schema
+key: nic-hdl  required  single    primary
+key: nick     optional  multiple
+key: www      optional  multiple
+key: e-mail   optional  multiple
+key: phone    optional  multiple
+key: contact  optional  multiple
+key: address  optional  multiple
+key: remarks  optional  multiple
