@@ -1,0 +1,6 @@
+inetnum: 10.0.0.0 - 10.0.127.255
+cidr: 10.0.0.0/17
+netname: NET-ARCA-OSPF-0-PTP
+descr: Range for /31 subnets for point-to-point router connections in area 0
+status: ALLOCATED INFRA
+admin-c: PERSON-PP

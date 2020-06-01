@@ -1,6 +1,6 @@
-inetnum: 10.0.0.128 - 10.0.0.255
-cidr: 10.0.0.128/25
+inetnum: 10.0.200.0 - 10.0.200.255
+cidr: 10.0.200.0/24
 netname: NET-ARCA-OSPF-0-MGMT
 descr: Management range for OSPF area 0 devices (switches, etc.)
-status: ALLOCATED INFRA
+status: ALLOCATED PI
 admin-c: PERSON-PP

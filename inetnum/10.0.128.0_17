@@ -1,0 +1,6 @@
+inetnum: 10.0.128.0 - 10.0.255.255
+cidr: 10.0.128.0/17
+netname: NET-ARCA-GLOBAL-SVC
+descr: Service subnet for global use
+status: ALLOCATED INFRA
+admin-c: PERSON-PP

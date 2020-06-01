@@ -1,0 +1,6 @@
+inetnum: 10.0.130.0 - 10.0.130.255
+cidr: 10.0.130.0/24
+netname: NET-ARCA-ANY2
+descr: Anycast service range
+status: ALLOCATED ANYCAST
+admin-c: PERSON-PP
