@@ -1,0 +1,8 @@
+ospf-area: 0
+area-name: OSPF-BACKBONE
+admin-c: PERSON-PP
+descr: OSPF area 0 - Backbone
+network:
+router:
+remarks: * Backbone for inter-area traffic
+remarks: * No services allowed within area

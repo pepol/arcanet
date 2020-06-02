@@ -1,0 +1,13 @@
+schema: ROUTER-SCHEMA
+ref: router
+key: router        required  single    primary schema
+key: ospf-id       required  single
+key: ospf-area     required  multiple  lookup=ospf-area
+key: type          optional  multiple  > {ABR|ASBR}
+key: admin-c       required  multiple  lookup=person
+key: if            optional  multiple
+key: if-type       optional  multiple  > {ethernet|loopback|ppp}
+key: if-addr       optional  multiple  lookup=inetnum,inet6num
+key: if-neighbour  optional  single    lookup=router
+key: loc           optional  multiple
+key: remarks       optional  multiple

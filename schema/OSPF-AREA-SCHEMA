@@ -1,8 +1,9 @@
 schema: OSPF-AREA-SCHEMA
 ref: ospf-area
 key: ospf-area  required  single    primary schema
-key: router     required  multiple  lookup=router
-key: admin-c    required  multiple  lookup=person
+key: area-name  required  single
+key: router     optional  multiple  lookup=router
+key: admin-c    optional  multiple  lookup=person
 key: descr      optional  single
 key: network    optional  multiple  lookup=inetnum,inet6num,vlan
 key: remarks    optional  multiple
